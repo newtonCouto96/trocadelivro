@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+body{width: 100%;
+height: 100%;}
+
+.cor_header{background-color: #B87FEA;}
+
+.cor_botao{background-color: lightblue;
+border-radius: 7px;
+height: 35px;
+}
+
+.caixa_busca{margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.botao_header{color: black;
+margin-right: 20px;
+font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+font-size: 25px;}
+
+.procurar{color: black;
+font-size: 20px}
+
+.paginacao{font-size: 20px;
+margin: 10px;
+color: black;}
+
+/*.menu_busca{width: 100%;
+}
+*/
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.flex-container > div {
+  width: 20px;
+  margin: 10px;
+  text-align: center;
+  font-size: 40px;
+}
+
+a{color: black;}
+
+p{font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
+
+h5{font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+
+li{list-style: none;}
+
+footer{width: 100%;
+background-color: #B87FEA;}
+
+
+
+

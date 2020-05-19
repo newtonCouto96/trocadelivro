@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Livro Exchange</title>
+
+<link rel="stylesheet" href="css/estilo_geral.css" type="text/css">
+<script type="text/javascript" src="jquery/jquery.js"></script>
+<link rel="stylesheet" href="bootstrap/bootstrap.css" type="text/css">
+
+
+</head>
+
+<body>
+
+<!--header-->
+
+<header>
+	
+	<nav class="navbar navbar-expand-lg navbar-light cor_header">
+  <div class="container">
+	  <img src="imgs/logo pequeno.png">
+
+				<form class="my-2 nav">
+			  
+			  		<div class="justify-content-between">
+				  <input class="form-control mr-sm-5 nav-item ml-5" type="search" placeholder="Procure o livro que deseja" aria-label="Search">
+				  </div>
+				  <div class="justify-content-center ml-4">
+				  <button class="cor_botao nav-item ml-5" type="submit">Procurar</button>
+				  </div>
+				  
+				</form>
+</div>
+	</nav>
+	
+	
+	<nav class="navbar navbar-expand-lg navbar-light mt-4">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav" style="margin-left: 35%">
+      <li class="nav-item active">
+        <a class="botao_header" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="botao_header" href="#">Como Funciona</a>
+      </li>
+      <li class="nav-item">
+        <a class="botao_header" href="#">Quem Somos</a>
+      </li>
+      <li class="nav-item">
+        <a class="botao_header" href="#">Contato</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+	
+	
+</header>
+	
+
+<!--carrousel-->
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade mt-5" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imgs/carroussel.jpg" class="d-block w-80 container-md" alt="...">
+    </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<!--fim carrousel-->
+
+
+
+
+<!--livros-->
+
+
+<div class="row row-cols-2 row-cols-md-5 mt-5" style="width: 100%;">
+  <div class="col mb-4">
+   <a href="" style="color: black;">
+    <div class="card h-100">
+      <img src="imgs/10.jpg" class="card-img-top w-50 rounded mx-auto d-block" alt="...">
+      <div class="card-body">
+        <h5 class="font-weight-bold">Um de Nós Está Mentindo</h5>
+        <p class="card-text mb-0">Autor: Karen McManus</p>
+        <p class="card-text">Dono do Livro: Fulano Souza</p>
+        
+      </div>
+    </div>
+    </a>
+  </div>
+  <div class="col mb-4">
+   <a href="" style="color: black;">
+    <div class="card h-100">
+      <img src="imgs/2.jpg" class="card-img-top w-50 rounded mx-auto d-block" alt="...">
+      <div class="card-body">
+        <h5 class="font-weight-bold">A Ladra do Demônio</h5>
+        <p class="card-text mb-0">Autor: Lisa Maxwell</p>
+        <p class="card-text">Dono do Livro: Fulano Souza</p>
+        
+      </div>
+    </div>
+    </a>
+  </div>
+  <div class="col mb-4">
+   <a href="" style="color: black;">
+    <div class="card h-100">
+      <img src="imgs/3.jpg" class="card-img-top w-50 rounded mx-auto d-block" alt="...">
+      <div class="card-body">
+        <h5 class="font-weight-bold">O Último dos Magos</h5>
+        <p class="card-text mb-0">Autor: Lisa Maxwell</p>
+        <p class="card-text">Dono do Livro: Fulano Souza</p>
+        
+      </div>
+    </div>
+    </a>
+  </div>
+  <div class="col mb-4">
+   <a href="" style="color: black;">
+    <div class="card h-100">
+      <img src="imgs/4.jpg" class="card-img-top w-50 rounded mx-auto d-block" alt="...">
+      <div class="card-body">
+        <h5 class="font-weight-bold">Mistério de Chalk Hill</h5>
+        <p class="card-text mb-0">Autor: Suzanne Goga</p>
+        <p class="card-text">Dono do Livro: Fulano Souza</p>
+        
+      </div>
+    </div>
+    </a>
+  </div>
+    <div class="col mb-4">
+    <a href="" style="color: black;">
+    <div class="card h-100">
+      <img src="imgs/9.jpg" class="card-img-top w-50 rounded mx-auto d-block" alt="...">
+      <div class="card-body">
+        <h5 class="font-weight-bold">Caçadora de Estrelas</h5>
+        <p class="card-text mb-0">Autor: Raiza Varella</p>
+        <p class="card-text">Dono do Livro: Fulano Souza</p>
+        
+      </div>
+    </div>
+    </a>
+  </div>
+    <div class="col mb-4">
+    <a href="" style="color: black;">
+    <div class="card h-100">
+      <img src="imgs/5.jpg" class="card-img-top w-50 rounded mx-auto d-block" alt="...">
+      <div class="card-body">
+        <h5 class="font-weight-bold">O Guardião</h5>
+        <p class="card-text mb-0">Autor: Daniel Polansky</p>
+        <p class="card-text">Dono do Livro: Fulano Souza</p>
+        
+      </div>
+    </div>
+    </a>
+  </div>
+    <div class="col mb-4">
+    <a href="" style="color: black;">
+    <div class="card h-100">
+      <img src="imgs/6.jpg" class="card-img-top w-50 rounded mx-auto d-block" alt="...">
+      <div class="card-body">
+        <h5 class="font-weight-bold">Chronos</h5>
+        <p class="card-text mb-0">Autor: Rysa Walker</p>
+        <p class="card-text">Dono do Livro: Fulano Souza</p>
+        
+      </div>
+    </div>
+    </a>
+  </div>
+    <div class="col mb-4">
+    <a href="" style="color: black;">
+    <div class="card h-100">
+      <img src="imgs/7.jpg" class="card-img-top w-50 rounded mx-auto d-block" alt="...">
+      <div class="card-body">
+        <h5 class="font-weight-bold">Um Dorama para Chamar de Meu</h5>
+        <p class="card-text mb-0">Autor: Marina Carvalhlo</p>
+        <p class="card-text">Dono do Livro: Fulano Souza</p>
+        
+      </div>
+    </div>
+    </a>
+  </div>
+    <div class="col mb-4">
+    <a href="" style="color: black;">
+    <div class="card h-100">
+      <img src="imgs/8.jpg" class="card-img-top w-50 rounded mx-auto d-block" alt="...">
+      <div class="card-body">
+        <h5 class="font-weight-bold">O Vilarejo</h5>
+        <p class="card-text mb-0">Autor: Rafael Montes</p>
+        <p class="card-text">Dono do Livro: Fulano Souza</p>
+        
+      </div>
+    </div>
+		</a>
+  </div>
+</div>
+
+
+<!--fim livros-->
+
+
+<div class="flex-container">
+
+<div class="">
+	<img src="imgs/icone_esquerda.jpg">
+</div>
+ 
+ 
+ 
+	<a href="#" class="paginacao mt-4">
+	 	<div>1</div>
+	</a>
+	 
+	<a href="#" class="paginacao mt-4"> 
+		<div>2</div>
+	</a>
+  
+	<a href="#" class="paginacao mt-4">
+	<div>3</div>
+	</a>
+ 
+  <a href="#" class="paginacao mt-4"> 
+  <div>4</div>
+  </a>
+  
+  <a href="#" class="paginacao mt-4">
+  <div>5</div>
+  </a>
+  
+  <a href="#" class="paginacao mt-4">
+  <div>6</div>  
+  </a>
+  
+    <a href="#" class="paginacao mt-4">
+  <div>7</div>  
+  </a>
+  
+    <a href="#" class="paginacao mt-4">
+  <div>8</div>  
+  </a>
+  
+    <a href="#" class="paginacao mt-4">
+  <div>9</div>  
+  </a>
+  
+      <a href="#" class="paginacao mt-4">
+  <div>10</div>  
+  </a>
+  
+      <a href="#" class="paginacao mt-4">
+  <div>11</div>  
+  </a>
+  
+<div>
+	<img src="imgs/icone_direita.jpg">
+</div>
+  
+</div>
+
+
+
+<footer>
+
+<div class="container mt-3">
+  <div class="d-flex justify-content-between">
+
+
+	
+
+		<div class="mt-4">
+
+		
+		 <li class="">
+			<ol><a href="#" style="color: black">Home</a></ol>
+			<ol><a href="#" style="color: black">Como Funciona</a></ol>
+			<ol><a href="#" style="color: black">Quem Somos</a></ol>
+			<ol><a href="#" style="color: black">Contato</a></ol>
+		 </li>
+
+		</div>
+
+	<div class="mt-5">
+
+	<p>Politica de Privacidade</p>
+
+	</div>
+
+	
+	<div class="mt-4">
+
+		<img src="imgs/icone_email.png">
+		<p class="">livroexchange@gmail.com</p>
+
+		<img src="imgs/icone-facebook.png">
+		 <p>@livroexchange.com</p>
+
+	</div>
+  
+
+
+</div>
+
+	
+  </div>
+
+		
+</footer>
+
+
+<script type="text/javascript" src="bootstrap/bootstrap.js"></script>
+</body>
+</html>
